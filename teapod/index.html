@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teapod project</title>
+    <style>
+        .outputWindow {
+            display: block;
+            position: absolute;
+            margin: auto auto;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 500px;
+            height: 150px;
+
+            border: 2px dashed black;
+            border-radius: 10px;
+        }
+        .title {
+            font-weight: 600;
+            padding: 5px;
+        }
+        .output {
+            display: block;
+            text-align: center;
+            height: 100px;
+            width: 495px;
+            overflow: auto;
+        }
+        .logMessage {
+            display: block;
+            line-height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class = "outputWindow">
+        <div class = "title">
+            Output:
+        </div>
+        <div class = "output">
+
+        </div>
+    </div>
+    <script src = "output.js"></script>
+    <script src = "index.js"></script>
+</body>
+</html>
